@@ -17,5 +17,8 @@ echo '{
         {"site-package": "werkzeug"},
         {"site-package": "jsonpickle"}
     ],
-    "taint_models_path": "../../stubs"
+    "taint_models_path": "../../stubs",
+    "exclude": [
+      "../../stubs/third_party_taint"
+    ]
 }' > ./.pyre_configuration
